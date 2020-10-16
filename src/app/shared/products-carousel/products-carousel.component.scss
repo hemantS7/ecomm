@@ -1,0 +1,19 @@
+.swiper-container{
+    padding: 16px 2px 2px 2px;
+    .swiper-slide{
+        text-align: center;
+    }
+}
+.swiper-button-next.swiper-button-disabled, 
+.swiper-button-prev.swiper-button-disabled{
+    pointer-events: auto;
+}
+.outline-btn
+{
+    background-color: #f4433600 !important;
+    border: 1px solid #f44336 !important;
+    color: #f44336 !important;
+}
+.product-item .prices .new-price {
+    font-size: 20px !important;
+}

@@ -1,0 +1,12 @@
+<app-main-carousel [slides]="slides"></app-main-carousel>
+<div class="products-tabs">
+    <div *ngFor="let list of menuCategoriesData">
+        <div *ngIf="list.products[0]">
+        <div class="label-card">
+        <label for="" >{{list.categoryName}}</label>
+    </div>
+        <app-products-carousel [products]="list.products"></app-products-carousel>
+        <br>
+    </div>
+    </div>
+</div>
